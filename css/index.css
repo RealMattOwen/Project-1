@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box; }
+
+#page-top {
+  width: 100%;
+  height: 100%;
+  background-color: #151931; }
+
+nav {
+  width: 40%;
+  height: 80px;
+  margin: 0 auto; }
+  nav li {
+    list-style: none;
+    padding: 7px 30px;
+    margin: 20px auto;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase; }
+    nav li a {
+      text-decoration: none;
+      color: #616382; }
+    nav li a:hover {
+      color: #ffffff; }
+  nav #title {
+    list-style: none;
+    padding: 7px 30px;
+    margin: 20px auto;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: #c2002e;
+    text-decoration-style: double;
+    text-underline-position: under; }
+
+#top-img {
+  height: 436px;
+  width: 100%; }
