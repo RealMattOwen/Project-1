@@ -18,6 +18,7 @@ $footerbg: #000612;
 
 #page-top {
     background-color: $topbg;
+    height: 698px;
 }
 
 nav {
@@ -25,8 +26,6 @@ nav {
     position: fixed;
     width: 100%;
     height: 80px;
-    margin: 0;
-    padding: 0;
     text-align: center;
     
     ul {
@@ -36,13 +35,13 @@ nav {
         li {
             list-style: none;
             margin: 0 50px;
-            //padding: 0 30px;
             display: inline;
             text-transform: uppercase;
 
             a { 
                 text-decoration: none;
                 color: $color1;
+                font-family: Arial;
             }
 
             a:hover,a:focus {
@@ -60,8 +59,39 @@ nav {
 
 }
 
+#heading {
+    text-align: center;
+    color: $color3;
+    font-size: 60px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 100;
+    position: relative;
+    top: 160px;
+}
+
+#sub-heading {
+    text-align: center;
+    color: $color2;
+    font-family: Arial;
+    font-weight: 100;
+    position: relative;
+    top: 160px;
+    text-transform: uppercase;
+    letter-spacing: 17px;
+}
+
+#credit {
+    text-align: center;
+    color: $color3;
+    font-family: Arial;
+    font-style: italic;
+    font-weight: 100;
+    position: relative;
+    top: 200px;
+}
+
 #top-img {
     height: 436px;
     width: 100%;
-    margin-top: 300px;
+    margin-top: 180px;
 }
