@@ -12,50 +12,50 @@ $footerbg: #000612;
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 #page-top {
-    width: 100%;
-    height: 100%;
     background-color: $topbg;
 }
 
 nav {
 
-    width: 40%;
+    position: fixed;
+    width: 100%;
     height: 80px;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
     
-    li {
-        list-style: none;
-        padding: 7px 30px;
-        margin: 20px auto;
-        display: inline-block;
-        text-align: center;
-        text-transform: uppercase;
+    ul {
 
-        a {
-            text-decoration: none;
-            color: $color1;
+        margin: 34px 0;
+
+        li {
+            list-style: none;
+            margin: 0 50px;
+            //padding: 0 30px;
+            display: inline;
+            text-transform: uppercase;
+
+            a { 
+                text-decoration: none;
+                color: $color1;
+            }
+
+            a:hover,a:focus {
+                color: $color3;
+                outline: none;
+            }
+
+            .active {
+                color: white;
+                padding-bottom: 4px;
+                border-bottom: 2px solid red;
+            }
         }
-
-        a:hover {
-            color: $color3;
-        }
-    }
-
-    #title {
-        list-style: none;
-        padding: 7px 30px;
-        margin: 20px auto;
-        display: inline-block;
-        color: white;
-        text-align: center;
-        text-transform: uppercase;
-        text-decoration: underline;
-        text-decoration-color: $color2;
-        text-decoration-style: double;
-        text-underline-position: under;
     }
 
 }
@@ -63,4 +63,5 @@ nav {
 #top-img {
     height: 436px;
     width: 100%;
+    margin-top: 300px;
 }
