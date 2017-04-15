@@ -93,13 +93,14 @@ nav {
   margin: 45px auto 0 auto;
   overflow: auto; }
   #image #volcano {
-    width: 81%; }
+    float: left;
+    max-width: 81%; }
   #image #fact {
     width: 19%;
     border-top: 5px solid #c2002e;
     font-family: 'Noto Serif', serif;
     font-size: 12px;
     font-style: italic;
-    display: table;
+    display: inline-block;
     margin-left: 10px;
     margin-right: auto; }

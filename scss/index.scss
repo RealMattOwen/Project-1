@@ -138,11 +138,10 @@ nav {
     overflow: auto;
 
     #volcano {
-        //float: left;
+        float: left;
         //min-width: 81%;
-        //max-width: 81%;
-        //display: table;
-        width: 81%;
+        max-width: 81%;
+        //width: 81%;
     }
 
     #fact {
@@ -151,8 +150,7 @@ nav {
         font-family: 'Noto Serif', serif;
         font-size: 12px;
         font-style: italic;
-        display: table;
-        //margin-top: -100px;
+        display: inline-block;
         margin-left: 10px;
         margin-right: auto;
     }
