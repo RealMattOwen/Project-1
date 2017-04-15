@@ -131,7 +131,7 @@ nav {
 
 }
 
-#image {
+#first-image {
 
     width: 61%;
     margin: 45px auto 0 auto;
@@ -139,9 +139,7 @@ nav {
 
     #volcano {
         float: left;
-        //min-width: 81%;
-        max-width: 81%;
-        //width: 81%;
+        width: 79%;
     }
 
     #fact {
@@ -151,8 +149,22 @@ nav {
         font-size: 12px;
         font-style: italic;
         display: inline-block;
+        margin: 0 auto 0 20px;
+        padding-top: 14px;
+    }
+
+}
+
+#second-image {
+
+    width: 22.85%;
+    margin: 30px auto 0 60%;
+
+    #man {
+        float: right;
+        width: 100%;
+        margin-top: 4px;
         margin-left: 10px;
-        margin-right: auto;
     }
 
 }

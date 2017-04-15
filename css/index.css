@@ -88,19 +88,28 @@ nav {
     font-style: italic;
     font-size: 18px; }
 
-#image {
+#first-image {
   width: 61%;
   margin: 45px auto 0 auto;
   overflow: auto; }
-  #image #volcano {
+  #first-image #volcano {
     float: left;
-    max-width: 81%; }
-  #image #fact {
+    width: 79%; }
+  #first-image #fact {
     width: 19%;
     border-top: 5px solid #c2002e;
     font-family: 'Noto Serif', serif;
     font-size: 12px;
     font-style: italic;
     display: inline-block;
-    margin-left: 10px;
-    margin-right: auto; }
+    margin: 0 auto 0 20px;
+    padding-top: 14px; }
+
+#second-image {
+  width: 22.85%;
+  margin: 30px auto 0 60%; }
+  #second-image #man {
+    float: right;
+    width: 100%;
+    margin-top: 4px;
+    margin-left: 10px; }
