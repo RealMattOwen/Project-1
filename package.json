@@ -12,8 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "compile": "node-sass -w scss/ -o css/",
-    "start": "node js/test.js"
+    "compile": "node-sass -w scss/ -o css/"
   },
   "author": "",
   "license": "ISC"
