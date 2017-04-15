@@ -20,7 +20,7 @@ nav {
     vertical-align: middle; }
     nav ul li {
       list-style: none;
-      margin: 0 50px;
+      margin: 0 3%;
       display: inline;
       text-transform: uppercase; }
       nav ul li a {
@@ -93,14 +93,13 @@ nav {
   margin: 45px auto 0 auto;
   overflow: auto; }
   #image #volcano {
-    float: left;
-    max-width: 81%; }
+    width: 81%; }
   #image #fact {
     width: 19%;
     border-top: 5px solid #c2002e;
     font-family: 'Noto Serif', serif;
     font-size: 12px;
     font-style: italic;
-    display: inline-block;
+    display: table;
     margin-left: 10px;
     margin-right: auto; }

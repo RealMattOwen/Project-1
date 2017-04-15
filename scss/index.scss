@@ -39,7 +39,7 @@ nav {
         li {
 
             list-style: none;
-            margin: 0 50px;
+            margin: 0 3%;
             display: inline;
             text-transform: uppercase;
 
@@ -138,9 +138,11 @@ nav {
     overflow: auto;
 
     #volcano {
-        float: left;
+        //float: left;
         //min-width: 81%;
-        max-width: 81%;
+        //max-width: 81%;
+        //display: table;
+        width: 81%;
     }
 
     #fact {
@@ -149,7 +151,8 @@ nav {
         font-family: 'Noto Serif', serif;
         font-size: 12px;
         font-style: italic;
-        display: inline-block;
+        display: table;
+        //margin-top: -100px;
         margin-left: 10px;
         margin-right: auto;
     }
