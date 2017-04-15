@@ -47,6 +47,7 @@ nav {
                 text-decoration: none;
                 color: $color1;
                 font-family: Arial;
+                transition: .4s ease;
             }
 
             a:hover,a:focus {
@@ -144,12 +145,13 @@ nav {
 
     #fact {
         width: 19%;
+        max-width: 200px;
         border-top: 5px solid $color2;
         font-family: 'Noto Serif', serif;
         font-size: 12px;
         font-style: italic;
         display: inline-block;
-        margin: 0 auto 0 20px;
+        margin: 0 auto 0 2%;
         padding-top: 14px;
     }
 

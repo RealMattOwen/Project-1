@@ -26,7 +26,8 @@ nav {
       nav ul li a {
         text-decoration: none;
         color: #616382;
-        font-family: Arial; }
+        font-family: Arial;
+        transition: .4s ease; }
       nav ul li a:hover, nav ul li a:focus {
         color: #ffffff;
         outline: none; }
@@ -97,12 +98,13 @@ nav {
     width: 79%; }
   #first-image #fact {
     width: 19%;
+    max-width: 200px;
     border-top: 5px solid #c2002e;
     font-family: 'Noto Serif', serif;
     font-size: 12px;
     font-style: italic;
     display: inline-block;
-    margin: 0 auto 0 20px;
+    margin: 0 auto 0 2%;
     padding-top: 14px; }
 
 #second-image {
