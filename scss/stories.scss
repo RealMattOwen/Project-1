@@ -55,9 +55,9 @@ $footerbg: #000612;
                 }
 
                 .active {
-                    color: white;
+                    color: $color3;
                     padding-bottom: 4px;
-                    border-bottom: 2px solid red;
+                    border-bottom: 2px solid $color2;
                 }
 
             }
@@ -139,7 +139,7 @@ $footerbg: #000612;
             font-style: italic;
             margin: 60px auto 50px;
             padding: 0 0 3px 0;
-            border-bottom: 2px solid red;
+            border-bottom: 2px solid $color2;
         }
 
     }
@@ -243,7 +243,7 @@ $footerbg: #000612;
         }
 
         .story-btn {
-            color: red;
+            color: $color2;
             text-transform: uppercase;
             font-family: Arial, sans-serif;
             font-size: 12px;
@@ -306,9 +306,9 @@ $footerbg: #000612;
                     }
 
                     .active {
-                        color: white;
+                        color: $color3;
                         padding-bottom: 4px;
-                        border-bottom: 2px solid red;
+                        border-bottom: 2px solid $color2;
                     }
 
                 }

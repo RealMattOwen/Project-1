@@ -31,9 +31,9 @@
           color: #ffffff;
           outline: none; }
         #page-top nav ul li .active {
-          color: white;
+          color: #ffffff;
           padding-bottom: 4px;
-          border-bottom: 2px solid red; }
+          border-bottom: 2px solid #c2002e; }
 
 #page-body .body {
   width: 36%;
@@ -84,7 +84,7 @@
     #page-bottom #stories .story-content {
       margin-bottom: 18px; }
     #page-bottom #stories .story-btn {
-      color: red;
+      color: #c2002e;
       text-transform: uppercase;
       font-family: Arial, sans-serif;
       font-size: 12px;
@@ -127,6 +127,6 @@
             color: #ffffff;
             outline: none; }
           #page-bottom #footer #bottom-nav ul li .active {
-            color: white;
+            color: #ffffff;
             padding-bottom: 4px;
-            border-bottom: 2px solid red; }
+            border-bottom: 2px solid #c2002e; }

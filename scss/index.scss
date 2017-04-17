@@ -63,9 +63,9 @@ html,body {
                     }
 
                     .active {
-                        color: white;
+                        color: $color3;
                         padding-bottom: 4px;
-                        border-bottom: 2px solid red;
+                        border-bottom: 2px solid $color2;
                     }
 
                 }
