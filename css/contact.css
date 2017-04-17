@@ -74,7 +74,8 @@
     box-shadow: 0px 6px #151931;
     padding: 4px;
     outline: none;
-    transition: all ease 0.3s; }
+    transition: all ease 0.3s;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
   #page-body .body #submit:hover, #page-body .body #submit:focus {
     cursor: pointer; }
   #page-body .body #submit:active {
