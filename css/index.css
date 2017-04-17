@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+#page {
+  background-color: #151931;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+  #page #nav-content {
+    width: 100%;
+    height: 34%; }
+    #page #nav-content nav {
+      position: fixed;
+      width: 100%;
+      height: 60px;
+      text-align: center;
+      background-color: #151931;
+      z-index: 999;
+      display: table; }
+      #page #nav-content nav ul {
+        display: table-cell;
+        vertical-align: middle; }
+        #page #nav-content nav ul li {
+          list-style: none;
+          margin: 0 3%;
+          display: inline;
+          text-transform: uppercase; }
+          #page #nav-content nav ul li a {
+            text-decoration: none;
+            color: #616382;
+            font-family: Arial, sans-serif;
+            transition: .4s ease; }
+          #page #nav-content nav ul li a:hover, #page #nav-content nav ul li a:focus {
+            color: #ffffff;
+            outline: none; }
+          #page #nav-content nav ul li .active {
+            color: white;
+            padding-bottom: 4px;
+            border-bottom: 2px solid red; }
+    #page #nav-content #heading {
+      text-align: center;
+      color: #ffffff;
+      font-size: 60px;
+      font-family: 'Noto Serif', serif;
+      font-weight: 100;
+      position: relative;
+      top: 160px; }
+    #page #nav-content #sub-heading {
+      text-align: center;
+      color: #c2002e;
+      font-family: Arial, sans-serif;
+      font-weight: 100;
+      position: relative;
+      top: 160px;
+      text-transform: uppercase;
+      letter-spacing: 17px; }
+    #page #nav-content #credit {
+      text-align: center;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      font-style: italic;
+      font-weight: 100;
+      position: relative;
+      top: 200px; }
+  #page #img {
+    width: 100%;
+    height: 66%;
+    display: block; }

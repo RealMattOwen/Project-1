@@ -1,0 +1,116 @@
+$color1: #616382;
+
+$color2: #c2002e;
+
+$color3: #ffffff;
+
+$topbg: #151931;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    height:100%;
+}
+
+#page {
+    background-color: $topbg;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    #nav-content {
+
+        width: 100%;
+        height: 34%;
+
+        nav {
+
+            position: fixed;
+            width: 100%;
+            height: 60px;
+            text-align: center;
+            background-color: $topbg;
+            z-index: 999;
+            display: table;
+            
+            ul {
+
+                display: table-cell;
+                vertical-align: middle;
+
+                li {
+
+                    list-style: none;
+                    margin: 0 3%;
+                    display: inline;
+                    text-transform: uppercase;
+
+                    a { 
+                        text-decoration: none;
+                        color: $color1;
+                        font-family: Arial, sans-serif;
+                        transition: .4s ease;
+                    }
+
+                    a:hover,a:focus {
+                        color: $color3;
+                        outline: none;
+                    }
+
+                    .active {
+                        color: white;
+                        padding-bottom: 4px;
+                        border-bottom: 2px solid red;
+                    }
+
+                }
+
+            }
+
+        }
+
+        #heading {
+            text-align: center;
+            color: $color3;
+            font-size: 60px;
+            font-family: 'Noto Serif', serif;
+            font-weight: 100;
+            position: relative;
+            top: 160px;
+        }
+
+        #sub-heading {
+            text-align: center;
+            color: $color2;
+            font-family: Arial, sans-serif;
+            font-weight: 100;
+            position: relative;
+            top: 160px;
+            text-transform: uppercase;
+            letter-spacing: 17px;
+        }
+
+        #credit {
+            text-align: center;
+            color: $color3;
+            font-family: Arial, sans-serif;
+            font-style: italic;
+            font-weight: 100;
+            position: relative;
+            top: 200px;
+        }
+
+    }
+
+    #img {
+        width: 100%;
+        height: 66%;
+        display: block;
+    }
+
+}
