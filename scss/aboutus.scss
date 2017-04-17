@@ -1,0 +1,229 @@
+$color1: #616382;
+
+$color2: #c2002e;
+
+$color3: #ffffff;
+
+$topbg: #151931;
+
+$background: #f6f6f7;
+
+$footerbg: #000612;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#page-top {
+    background-color: $topbg;
+    height: 60px;
+
+    nav {
+
+        position: fixed;
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        background-color: $topbg;
+        z-index: 999;
+        display: table;
+        
+        ul {
+
+            display: table-cell;
+            vertical-align: middle;
+
+            li {
+
+                list-style: none;
+                margin: 0 3%;
+                display: inline;
+                text-transform: uppercase;
+
+                a { 
+                    text-decoration: none;
+                    color: $color1;
+                    font-family: Arial, sans-serif;
+                    transition: .4s ease;
+                }
+
+                a:hover,a:focus {
+                    color: $color3;
+                    outline: none;
+                }
+
+                .active {
+                    color: white;
+                    padding-bottom: 4px;
+                    border-bottom: 2px solid red;
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+#page-body {
+
+    .body {
+        width: 36%;
+        margin: 0 auto;
+
+        .paragraphs {
+            margin-top: 30px;
+            font-family: 'Noto Serif', serif;
+        }
+
+        #capital-letter {
+            font-size: 42px;
+            line-height: 32px;
+            padding-top: 6px;
+            padding-right: 4px;
+            float: left;
+        }
+
+    }
+
+}
+
+#page-bottom {
+    background-color: $background;
+    width: 100%;
+    margin-top: 120px;
+
+    #stories {
+
+        margin: 0 auto 50px;
+        width: 30%;
+        padding-top: 80px;
+
+        #prev-story {
+
+            width: 40%;
+            margin-right: 9%;
+            display: inline-block;
+
+            #prev {
+                float: left;
+            }
+
+            .icon-arrow-left {
+                position: relative;
+                top: 4px;
+                margin-right: 6px;
+                font-size: 18px
+            }
+
+        }
+
+        #next-story {
+
+            width: 40%;
+            margin-left: 9%;
+            display: inline-block;
+
+            #next {
+                float: right;
+            }
+
+            .icon-arrow-right {
+                position: relative;
+                top: 4px;
+                margin-left: 6px;
+                font-size: 18px;
+            }
+
+        }
+
+        .story-heading {
+            margin-bottom: 14px;
+            font-weight: lighter;
+        }
+
+        .story-content {
+            margin-bottom: 18px;
+        }
+
+        .story-btn {
+            color: red;
+            text-transform: uppercase;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            font-weight: bolder;
+        }
+
+    }
+
+    #bottom-img {
+        width: 100%;
+        display: block;
+    }
+
+    #footer {
+        
+        width: 100%;
+        height: 86px;
+        background-color: $footerbg;
+
+        #copyright {
+            width: 30%;
+            margin-left: 5%;
+            text-align: center;
+            color: $color1;
+            position: relative;
+            top: 18px;
+            font-family: Arial, sans-serif;
+        }
+
+        #bottom-nav {
+
+            width: 65%;
+            margin-left: 35%;
+            text-align: center;
+            position: relative;
+            display: table;
+
+            ul {
+
+                display: table-cell;
+                vertical-align: middle;
+
+                li {
+
+                    list-style: none;
+                    margin: 0 2%;
+                    display: inline;
+                    text-transform: uppercase;
+
+                    a { 
+                        text-decoration: none;
+                        color: $color1;
+                        font-family: Arial, sans-serif;
+                        transition: .4s ease;
+                    }
+
+                    a:hover,a:focus {
+                        color: $color3;
+                        outline: none;
+                    }
+
+                    .active {
+                        color: white;
+                        padding-bottom: 4px;
+                        border-bottom: 2px solid red;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
